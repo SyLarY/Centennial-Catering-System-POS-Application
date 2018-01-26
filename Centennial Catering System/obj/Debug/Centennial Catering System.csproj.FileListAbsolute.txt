@@ -1,0 +1,45 @@
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\App_Data\CateringDB.mdf
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\App_Data\CateringDB_log.ldf
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.exe.config
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.exe
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.pdb
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Login.resources
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Properties.Resources.resources
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csproj.GenerateResource.Cache
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csproj.CoreCompileInputs.cache
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.exe
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.pdb
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Menu.resources
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Management.resources
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\App_Data\CateringDB.mdf
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\App_Data\CateringDB_log.ldf
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.exe.config
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.exe
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.pdb
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csprojResolveAssemblyReference.cache
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Login.resources
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Management.resources
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Menu.resources
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Properties.Resources.resources
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csproj.GenerateResource.Cache
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csproj.CoreCompileInputs.cache
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.exe
+E:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.pdb
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\App_Data\CateringDB.mdf
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\App_Data\CateringDB_log.ldf
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.exe.config
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.exe
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\bin\Debug\Centennial Catering System.pdb
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csprojResolveAssemblyReference.cache
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Login.resources
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Management.resources
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Menu.resources
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Properties.Resources.resources
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csproj.GenerateResource.Cache
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csproj.CoreCompileInputs.cache
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.exe
+H:\New folder\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.pdb
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Customer.resources
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.CustomerControl.resources
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial_Catering_System.Report.resources
+E:\FW 2017- 2018\COMP 212\Midterm\Centennial Catering System\Centennial Catering System\obj\Debug\Centennial Catering System.csprojResolveAssemblyReference.cache

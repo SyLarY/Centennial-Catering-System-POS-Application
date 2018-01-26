@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CateringDB" Class="SaleReportDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\App_Data\CateringDB.mdf;Integrated Security=True" SettingsObjectName="Centennial_Catering_System.Properties.Settings" SettingsPropertyName="CateringDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblOrderItems" Member="tblOrderItems">
+    <Type Name="tblOrderItem">
+      <Column Name="OrderID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OrderItemID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ItemID" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Total" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Association Name="tblOrder_tblOrderItem" Member="tblOrder" ThisKey="OrderID" OtherKey="OrderID" Type="tblOrder" IsForeignKey="true" />
+      <Association Name="tblItem_tblOrderItem" Member="tblItem" ThisKey="ItemID" OtherKey="ItemID" Type="tblItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblOrders" Member="tblOrders">
+    <Type Name="tblOrder">
+      <Column Name="OrderID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Association Name="tblOrder_tblOrderItem" Member="tblOrderItems" ThisKey="OrderID" OtherKey="OrderID" Type="tblOrderItem" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblItems" Member="tblItems">
+    <Type Name="tblItem">
+      <Column Name="ItemID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CategoryID" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductImg" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(6,2) NOT NULL" CanBeNull="false" />
+      <Association Name="tblItem_tblOrderItem" Member="tblOrderItems" ThisKey="ItemID" OtherKey="ItemID" Type="tblOrderItem" />
+      <Association Name="tblCategory_tblItem" Member="tblCategory" ThisKey="CategoryID" OtherKey="CategoryID" Type="tblCategory" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCategories" Member="tblCategories">
+    <Type Name="tblCategory">
+      <Column Name="CategoryID" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CategoryDescription" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblCategory_tblItem" Member="tblItems" ThisKey="CategoryID" OtherKey="CategoryID" Type="tblItem" />
+    </Type>
+  </Table>
+</Database>

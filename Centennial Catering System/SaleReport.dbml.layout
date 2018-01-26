@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SaleReport">
+  <DataContextMoniker Name="/SaleReportDataContext" />
+  <nestedChildShapes>
+    <classShape Id="65c733be-7ec9-40a7-9ad0-4d113e33ceab" absoluteBounds="1.75, 2.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SaleReportDataContext/tblOrderItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f6ab9f8c-8ea9-456e-8faa-d934ace03a5b" absoluteBounds="1.7650000000000001, 3.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2ac24be-c53f-40d1-893b-fd499fea53c7" absoluteBounds="1.75, 5.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SaleReportDataContext/tblOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="058ecfc8-d225-4b9f-b054-c485ce441f64" absoluteBounds="1.7650000000000001, 5.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 5.375); (2.75 : 4.64589680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SaleReportDataContext/tblOrder/tblOrder_tblOrderItem" />
+      <nodes>
+        <classShapeMoniker Id="a2ac24be-c53f-40d1-893b-fd499fea53c7" />
+        <classShapeMoniker Id="65c733be-7ec9-40a7-9ad0-4d113e33ceab" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c5b0fb85-0e17-42ab-9db9-c3a15d3f885b" absoluteBounds="1.75, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SaleReportDataContext/tblItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36e923c4-dcd9-49b7-9a78-e94cd02e69bd" absoluteBounds="1.7650000000000001, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.27089680989583); (2.75 : 2.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SaleReportDataContext/tblItem/tblItem_tblOrderItem" />
+      <nodes>
+        <classShapeMoniker Id="c5b0fb85-0e17-42ab-9db9-c3a15d3f885b" />
+        <classShapeMoniker Id="65c733be-7ec9-40a7-9ad0-4d113e33ceab" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8baa9f91-c751-46d9-a11c-531507143987" absoluteBounds="4.5, 2, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/SaleReportDataContext/tblCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f694f7e-48f8-4669-b609-28999ba1c08d" absoluteBounds="4.515, 2.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2); (5.5 : 1.2499995); (3.75 : 1.2499995)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SaleReportDataContext/tblCategory/tblCategory_tblItem" />
+      <nodes>
+        <classShapeMoniker Id="8baa9f91-c751-46d9-a11c-531507143987" />
+        <classShapeMoniker Id="c5b0fb85-0e17-42ab-9db9-c3a15d3f885b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
